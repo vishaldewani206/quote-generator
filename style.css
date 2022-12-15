@@ -11,7 +11,7 @@
   grid-template-rows: 100px 1fr 1fr 1fr;
   place-content: center;
   background: radial-gradient(58vw, #2866a7, #0b0e20);
-  background: radial-gradient(58vw, #583048, #592489);
+  background: linear-gradient(155deg, #a13074, #361752);
 }
 .heading {
   margin-top: 20px;
@@ -61,15 +61,15 @@
   border: None;
   font-size: 1rem;
   background: transparent;
-  color: rgb(53, 29, 53);
+  color: rgb(48, 14, 53);
   /* box-shadow: 0px 4px rgb(24, 24, 24); */
   cursor: pointer;
   margin-top: 2rem;
-  border: 2px solid rgb(53, 29, 53);
+  border: 2px solid rgb(48, 14, 53);
   margin-right: 2rem;
 }
 #copy:hover {
-  background-color: rgb(53, 29, 53);
+  background-color: rgb(48, 14, 53);
   color: white;
 }
 #copy:active {
