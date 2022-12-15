@@ -8,7 +8,7 @@
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-rows: 100px 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr;
   place-content: center;
   background: radial-gradient(58vw, #2866a7, #0b0e20);
   background: radial-gradient(58vw, #583048, #592489);
@@ -44,7 +44,7 @@
   font-size: 1rem;
   background: rgb(48, 14, 53);
   color: white;
-  box-shadow: 0px 4px rgb(24, 24, 24);
+  /* box-shadow: 0px 4px rgb(24, 24, 24); */
   cursor: pointer;
   margin-top: 2rem;
 }
@@ -52,6 +52,27 @@
   opacity: 0.7;
 }
 #next:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+#copy {
+  width: 140px;
+  height: 40px;
+  border: None;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(53, 29, 53);
+  /* box-shadow: 0px 4px rgb(24, 24, 24); */
+  cursor: pointer;
+  margin-top: 2rem;
+  border: 2px solid rgb(53, 29, 53);
+  margin-right: 2rem;
+}
+#copy:hover {
+  background-color: rgb(53, 29, 53);
+  color: white;
+}
+#copy:active {
   box-shadow: none;
   transform: translateY(5px);
 }
@@ -67,4 +88,13 @@
   .quoteDiv {
     width: 90vw;
   }
+}
+.about-me {
+  justify-self: center;
+}
+.about-me a:not(:last-child) {
+  margin-right: 20px;
+}
+.about-me img {
+  width: 35px;
 }
